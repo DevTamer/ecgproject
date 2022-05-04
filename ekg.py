@@ -111,7 +111,7 @@ def send_email(recipient, ecgbpm, ecgpng):
     port = 587
     smtp_server = "smtp.gmail.com"
     sender_email = "REDACTED"
-    password = "yourmother66$$"
+    password = "REDACTED"
     msg = MIMEMultipart()
     msg['From'] = sender_email
     msg['To'] = recipient
